@@ -13,7 +13,7 @@ class homeController extends GetxController
     MovieScreen(),
   ].obs;
   int i =0;
-  void PagesSelect(index)
+  void PagesSelect(int index)
   {
     i=index;
     print(i);
